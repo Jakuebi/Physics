@@ -1,6 +1,7 @@
-# May 28, 2026 3:23 PM EST
-Jacob Lahlou
+# The Lahlou Simulation Synchronicity Bound (Conjecture)
 
+## Author
+* **Name: ** me
 Lahlou Simulation Synchronicity Bound
 (Pronounced LAH-LOO)
 
