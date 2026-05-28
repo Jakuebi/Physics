@@ -1,9 +1,10 @@
 # The Lahlou Simulation Synchronicity Bound (Conjecture)
+(Pronounced LAH-LOO)
 
 ## Author
-* **Name: ** me
-Lahlou Simulation Synchronicity Bound
-(Pronounced LAH-LOO)
+* Name: Jacob Lahlou
+* Date: 28 May 2026
+* Status: Informal Conceptual Conjecture
 
 Assuming that time moves in discrete intervals (ticks), and that the universe is algorithmically irreducible, no physical process can perfectly predict via simulation the future state of a simultaneously occurring physical system before the physical system takes on that future state.
 
