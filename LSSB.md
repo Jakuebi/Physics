@@ -6,7 +6,8 @@
 * Date: 28 May 2026
 * Status: Informal Conceptual Conjecture
 
-Assuming that time moves in discrete intervals (ticks), and that the universe is algorithmically irreducible, no physical process can perfectly predict via simulation the future state of a simultaneously occurring physical system before the physical system takes on that future state.
+## Abstract
+Assuming that time moves in discrete intervals (ticks), and that the universe is algorithmically irreducible, **no physical process can perfectly predict via simulation the future state of a simultaneously occurring physical system before the physical system takes on that future state.**
 
 This is irrelevant of the computational abilities of the simulating process, but instead rooted in the discreteness of time and algorithmic irreducibility of the universe that force the simulated system to run, at best, in perfect synchronicity with the physical system, but never before.
 
