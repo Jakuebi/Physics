@@ -3,4 +3,4 @@
 * A frame, $\alpha_{k}$ has two components: its time-step, given by $k$, and the state it encodes, given by its value.
 * A step function, ${\Omega}$, takes in a state and outputs another state.
 * A state is merely data. More specifically, information on $\alpha$ at $k$.
-* A perfect simulator is an automata, $I$, that operates on the digitized initial state of another automata, $I_{\Delta}(S_{0})$. 
+* A perfect simulator is an automata, $I$, whose initial state is the digitized initial state of another automata, $I_{0}=I_{\Delta}(S_{0})$. 
