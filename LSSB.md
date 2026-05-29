@@ -12,7 +12,7 @@ Assuming that time moves in discrete intervals (ticks), and that the universe is
 ## Assumptions
 * Time is not continuous but rather divided into finite discrete intervals (ticks).
 * The physical behavior of the universe and all physical systems within it are algorithmically irreducible; there exists no mathematical shortcut or compressive function to perfectly describe physical behavior in less steps than are taken by the universe.
-* A perfect simulation cannot guess, or make any intermediate steps of what is being simulated, S. For each sequential frame of the perfect simulation, (K, X), it must be found that there exists $S_{k - 1}$
+* A perfect simulation cannot guess, or make any intermediate steps of what is being simulated, S. For each sequential frame of the perfect simulation, (K, X), it must be found that there exists $S_{k - n - 1}$ = $T_{k - 1}$ and $S_{k - n}$ = $T_{k}$ OR $S_{k - n}$ = $T_{k}$ and $S_{k - n + 1}$ = $T_{k + 1}$, where $n {\geq} 0$ and $S_{k}$ corresponds to the state of S at respective time-interval k while $T_{k}$ corresponds to X of (K, X) from T when K = k.
 *
 *   at every respective time-interval K the state of what is being simulated must exactly match X. Additionally, a perfect prediction must be a state taken from a perfect simulation. 
 
