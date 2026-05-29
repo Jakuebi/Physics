@@ -6,3 +6,4 @@
 * An automata, $I$, can be considered a simulator of another automata, $S$, if it fulfills the following conditions:
   * It possesses a digitizer function, $I_{\Delta}$, that takes in a state from $S$ and transforms it into a digitized state.
   * It possesses an undigitizer function, $I_{\delta}$, which functions as the inverse of $I_{\Delta}$ by taking digitized states and undoing the transformations on them done by $I_{\Delta}$.
+  * $I_{0}=I_{\Delta}(S_{0})$
