@@ -7,3 +7,4 @@
   * It possesses a digitizer function, $I_{\Delta}$, that takes in a state from $S$ and transforms it into a digitized state.
   * It possesses an undigitizer function, $I_{\delta}$, which functions as the inverse of $I_{\Delta}$ by taking digitized states and undoing the transformations on them done by $I_{\Delta}$.
   * $I_{0}=I_{\Delta}(S_{0})$
+  * $I$ is contained within $S$
