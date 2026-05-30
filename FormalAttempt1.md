@@ -11,3 +11,4 @@
 * An automata, $T$, can be considered a perfect simulator of another automata, $S$, if it fulfills the following conditions:
   * $T$ is a simulator of $S$
   * $T_{\Omega} = S_{\Omega}$
+
