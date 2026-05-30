@@ -12,3 +12,6 @@
   * $T$ is a simulator of $S$
   * $T_{\Omega} = S_{\Omega}$
 * A perfect prediction of an automata, $S$, is a frame taken from a perfect simulator of $S \text{, } T$; $T\_{\delta}(T\_{k}) \text{ where } k \in &#8484;_{\geq 0}$.
+# Proof
+# Real World Connections
+# Implications
