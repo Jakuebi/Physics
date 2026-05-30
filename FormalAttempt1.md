@@ -7,4 +7,4 @@
   * It possesses a digitizer function, $I_{\Delta}$, that takes in a state from $S$ and transforms it into a digitized state.
   * It possesses an undigitizer function, $I_{\delta}$, which functions as the inverse of $I_{\Delta}$ by taking digitized states and undoing the transformations on them done by $I_{\Delta}$.
   * $I_{0}=I_{\Delta}(S_{0})$
-  * $I$ is contained within $S \iff \Phi : &#8484;\_{\geq 0} &rarr; &#8484;\_{\geq 0}(\forall \tau, \pi \in &#8484;\_{\geq 0} (\tau \lt \pi \implies \Phi(\tau) \lt \Phi(\pi)) \land \forall k \in &#8484;\_{\geq 0} (I\_{\delta}(I\_{k}) = S_{\Phi(k)}))$
+  * $I$ is contained within $S \iff \exists \Phi : &#8484;\_{\geq 0} &rarr; &#8484;\_{\geq 0}(\forall \tau, \pi \in &#8484;\_{\geq 0} (\tau \lt \pi \implies \Phi(\tau) \lt \Phi(\pi)) \land \forall k \in &#8484;\_{\geq 0} (I\_{\delta}(I\_{k}) = S_{\Phi(k)}))$
