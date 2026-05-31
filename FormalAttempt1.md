@@ -16,7 +16,13 @@
   * $T$ is a simulator of $S$
   * $T_{\Omega} = S_{\Omega}$
 * A perfect prediction of an automata, $S$, is a frame taken from a perfect simulator of $S \text{, } T$; $T\_{\delta}(T\_{k}) \text{ where } k \in &#8484;_{\geq 0}$.
-* algorithmic/automata irreducibility
+* An automata, $\sigma$, can be considered an automatatic reduction of another automata $S$ on the interval on $S$'s time-steps $[\tau, \pi]$, denoted $\Sigma\_{[\tau, \pi]}(S)$ if it fulfills the following conditions:
+  * $\sigma_{0} = S_{0}$
+  * iff $\sigma\_{\Delta \text{ and } \sigma\_{\delta}$ do not exist, $\sigma\_{\Delta}(\sigma\_{k}) \text{, } \sigma\_{\delta}(\sigma\_{k}) = \sigma\_{k} \text{ where } k \in &#8484;_{\geq 0}$ (ugly identity function patch for "is contained in" only applying to automata's with (un)digitizer functions, fix later. we only need the ordering and compression not the simulation encoding)
+  * $\sigma \text{ is contained in } S$
+  * $\exists \kappa \in &#8484;\_{[0, \pi)} : \sigma\_{\kappa} = S\_{\pi}$
+* An automata, $\alpha \text{, is automatatically reducible on the interval on its time-steps } [\tau, \pi] \iff \exists \Sigma\_{[\tau, \pi]}(\alpha)$.
+* An automata, $\alpha \text{, is automatatically irreducible on the interval on its time-steps } [\tau, \pi] \iff \nexists \Sigma\_{[\tau, \pi]}(\alpha)$.
 # Proof
 # Real World Connections
 # Implications
